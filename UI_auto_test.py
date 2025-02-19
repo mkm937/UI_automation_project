@@ -4,7 +4,7 @@ import time
 from tkinter import *
 
 root     = Tk()
-root.title("Test 2 - Basic Classes")
+root.title("UI Automation test")
 numSteps = 0
 steps    = []
 columns  = []
