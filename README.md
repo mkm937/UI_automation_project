@@ -8,4 +8,11 @@ In this day and age, no one should have to manually transfering large ammounts o
 
 When the _Process Steps_ button is clicked, the users OS will begin processing each record (row) in the spreadsheet in accordance with the steps specified. It will begin with the first record, process each step from first to last, then move on to the next record and so on until there are no more records in the spreadsheet.
 
-## 
+## Installation Instruction and Suggestions
+Please note that this project is in the very early stages of development - you cannot dowload via pip. If you want this project to work correctly you must download the required packages onto your machine, they are listed below, but you can also check the import statements at the top of the .py file.
+* pandas
+* pyautogui
+* time
+* tkinter
+
+It is suggested that the .py file be downloaded and edited to suit the users needs. At present this project is well suited for people with some experience programming in python as it may take some editing to get it working on your environment. 
